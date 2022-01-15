@@ -2,6 +2,7 @@ import Link from "next/link";
 import Head from 'next/head'
 import Script from 'next/script'
 import Layout from '../../components/layout'
+// import '../../dist/output.css'
 
 export default function FirstPost() {
     return (
@@ -16,13 +17,7 @@ export default function FirstPost() {
                     console.log("facebook api works")
                 }
             />
-            <Script
-                src="../../dist/output.css"
-                strategy="lazyOnload"
-                onLoad={() => 
-                    console.log('tailwind loaded up')
-                }
-            />
+            
             <h1>First Post</h1>
             <h2>
                 <Link href="/">
