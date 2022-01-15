@@ -13,7 +13,7 @@ export default function FirstPost() {
                 src="https://connect.facebook.net/en_US/sdk.js"
                 strategy="lazyOnload"
                 onLoad={() => 
-                    console.log("It works! I'm stupid :(.....")
+                    console.log("facebook api works")
                 }
             />
             <Script
@@ -23,7 +23,7 @@ export default function FirstPost() {
                     console.log('tailwind loaded up')
                 }
             />
-            <h1>First Post Hello</h1>
+            <h1>First Post</h1>
             <h2>
                 <Link href="/">
                     <a>Back to Home</a>
